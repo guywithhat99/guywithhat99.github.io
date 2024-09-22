@@ -1,0 +1,65 @@
+Jack Miller and Maddy Leaver
+
+Find Errors 1:
+	1)	Line 1 - Missing <!DOCTYPE html> - I added it
+	2)	Line 2 - The HTML tag is missing language -  changed it to <html lang="en">
+	3)	Line 8 - The ending head tag is missing - I added </head>
+	4)	Missing ending header tag on line 10 - I added </h1> to fix it.
+	5)	Missing beginning paragraph tag on line 12 - I added <p>
+	6)	The list item in line 20 uses a closing tag as an opening tag. I removed the / in the tag
+	7)	Line 25 - The ending tag should be </ol> but is </ul>. U changed it to be </ol>
+	8)	Line 27 is missing the ending paragraph tag. I added </p>	
+	9)	line 29 “Image.png” as the photo is called image.jpg. I changed it to “image.jpg”
+	10)	Line 29, the image tag. is missing an alt. I added one
+	11)	Line 31 has an ending </img> tag but it is an <a> tag. I changed it to be </a>
+	12)	Line 46 - No closing Table tag - I added </table>
+	13)	Line 47, Source should be src; I changed it to be src
+	14)	Line 47 error.jpeg is wrong it should be error.jpg; I changed it to be error.jpg
+	15)	Line 49 - There is no paragraph tag. 
+	16)	line 51 - bgcolor="lightgray"
+	17)	Line 55 - the comment doesn’t close, it should have -->
+	18)	line 57 - The a tag has no closing tag - I added </a>
+	19)	line 59 - The </p></em> tags are switched. I switched them
+	20)	Line 59 - The em tag is incorrect it should be an u tag. I changed the <em></em> tag to be <u></u>
+	21)	Line 62 - <li> is the incorrect tag for a Descriptive Item Title, It should be <dt></dt>. I switched the tag
+	22)	Line 63 - <li> is the incorrect tag for a Descriptive Item text, It should be <dd></dd>. I switched the tag
+	23)	Line 65 - the closing tag is </h3> when it should be </h2> I changed it to be that. 
+
+Find errors 2:
+Find_errors_2.html
+
+	1	<html> needs to come first after <!Doctype> instead of <head> (Line 2)
+	2	Need <html lang="en-US"> (Line 2)
+	3	<head> needs to end (</head>) before <body> (Line 4/5)
+	4	<body is missing the second “>” (Line 5)
+	5	Need an ending body tag (line 18)
+	6	<div> does not have end tag </div> (Line 7)
+	7	<p> does not have end tag </p> (Line 8)
+	8	<strong> does not have end tag </strong> (Line 8)
+	9	<img missing “/” in end tag > (Line 10)
+	10	<img needs src= “” instead of href= “” (Line 10)
+	11	“image 2.jpg” needs to be “image_2.jpg” 
+	12	<img needs alt= “” after src (Line 10)
+	13	“This is a heading” missing beginning <h2> tag (Line 12)
+	14	“Text” missing beginning <p> tag (Line 14)
+	15	Comments require “<!-- comment -->” (Line 15)
+	16	Ending </html> tag spelled wrong (Line 16)
+
+Fixes for find errors 2:
+
+	1	Add <html> before <head> (Line 2)
+	2	Add lang="en-US" in opening <html> tg (Line 2)
+	3	Need ending </head> tag after (Line 4)
+	4	Add > in the opening <body tag (Line 5)
+	5	Add closing body tag
+	6	Add ending </div> tag to close div block opened in (Line 7)
+	7	Add ending </p> tag to close paragraph opened in (Line 8)
+	8	Add ending </strong> tag before ending </p> tag (Line 8)
+	9	Add / in end <img> tag (Line 10)
+	10	Remove href tag, replace with src (Line 10)
+	11	<img> needs alt tag after src (Line 10)
+	12	Add <h2> tag to open Header two in (Line 12)
+	13	Add <p> tag to open paragraph in (Line 14)
+	14	Add !-- and – in between <> to add a comment (Line 15)
+	15	Switch last line to </html> instead of </htm> (Line 16)
+
