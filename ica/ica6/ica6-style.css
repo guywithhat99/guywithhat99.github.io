@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+    margin:0;
+  }
+  
+  body {
+    background: #ccc;
+    margin: 0;
+  }
+  
+  article {
+    width: 210mm;
+    height: 297mm;
+   
+    position: relative;
+  }
+  
+  address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  /* Your CSS below here */
+  h1 {
+    background-image: url("logo.png");
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  img {
+    z-index: -1;
+  }
+
+
+  article {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.245) 10%, rgba(255, 255, 255, 0.5) 20%,rgba(255, 255, 255, 0.5) 80%, rgba(0, 0, 0, 0.345));
+    margin: auto auto;
+  }
+
+  body {
+    background-color: white;
+    background-image: url("top-image.png"), url("bottom-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    border-top: 1mm;
+  }
