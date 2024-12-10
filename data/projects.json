@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Wikipedia Page",
+      "description": "A custom Wikipedia Page",
+      "technologies": ["HTML"],
+      "images": [
+        "img/wiki1.jpeg",
+        "img/wiki2.jpeg",
+        "img/wiki3.jpeg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Comic Generator",
+      "description": "A website that uses an API to generate comics",
+      "technologies": ["HTML", "JS"],
+      "images": [
+        "img/comic1.jpeg",
+        "img/comic2.jpeg",
+        "img/comic3.jpeg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Image Gallery",
+      "description": "An image gallery of my dog Shmutzie", 
+      "technologies": ["CSS", "JS", "HTML"],
+      "images": [
+        "img/shmutz1.jpeg",
+        "img/shmutz2.jpeg",
+        "img/shmutz3.jpeg"
+      ]
+    }
+  ]

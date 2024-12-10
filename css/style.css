@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.hero {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.hero-image {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.site-title {
+    font-size: 8rem;
+    margin: 0;
+    font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.site-description {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.filter-button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.filter-button:hover {
+    background: #ddd;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: box-shadow 0.3s;
+}
+
+.project-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-item h3 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+.project-item p {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 10px 10px;
+}
+
+.project-item .project-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background: #eee;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+/* Project detail page styles */
+.header {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.project-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-info {
+    margin-bottom: 30px;
+}
+
+.project-info h2 {
+    margin: 0 0 10px;
+}
+
+.project-carousel {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.carousel-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.carousel-button.prev {
+    left: 20px;
+}
+
+.carousel-button.next {
+    right: 20px;
+}
