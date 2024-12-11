@@ -17,13 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         projects.forEach(project => {
             const projectItem = document.createElement('li');
             projectItem.classList.add('project-item');
-            // <a href="HTML/project.html?id=${project.id}">
-            //         <div class="project-thumb">
-            //             <img src="${project.images[0]}" alt="${project.name}" />
-            //         </div>
-            //         <h3>${project.name}</h3>
-            //         <p>${project.description}</p>
-            //     </a>
             projectItem.innerHTML = `
                 <a href="HTML/project.html?id=${project.id}">
                         <img src="${project.thumbnail}" alt="${project.name}" />
