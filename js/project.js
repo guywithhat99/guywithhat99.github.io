@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const carouselContainer = document.getElementById('carousel-container');
     const prevBtn = document.querySelector('.carousel-button.prev');
     const nextBtn = document.querySelector('.carousel-button.next');
+    const link = document.getElementById('project-link');
 
     let currentIndex = 0;
     let projectImages = [];
@@ -23,9 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 projectDescription.textContent = project.description;
                 projectTechnologies.textContent = project.technologies.join(', ');
                 projectImages = project.images;
+                link.href = project.link;
+                link.textContent = "Link to project";
 
                 // Initialize carousel
                 loadCarouselImage(currentIndex);
+
             } else {
                 // Handle no project found scenario
                 projectName.textContent = "Project not found";

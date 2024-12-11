@@ -8,7 +8,9 @@
         "img/wiki1.jpeg",
         "img/wiki2.jpeg",
         "img/wiki3.jpeg"
-      ]
+      ],
+      "thumbnail": "img/wiki.jpg",
+      "link": "https://guywithhat99.github.io/wa/wa3.html"
     },
     {
       "id": 2,
@@ -19,7 +21,9 @@
         "img/comic1.jpeg",
         "img/comic2.jpeg",
         "img/comic3.jpeg"
-      ]
+      ],
+      "thumbnail": "img/comic.jpg",
+      "link": "https://guywithhat99.github.io/wa/wa12.html"
     },
     {
       "id": 3,
@@ -30,6 +34,8 @@
         "img/shmutz1.jpeg",
         "img/shmutz2.jpeg",
         "img/shmutz3.jpeg"
-      ]
+      ],
+      "thumbnail": "img/shmutz.jpg",
+      "link": "https://guywithhat99.github.io/wa/wa11.html"
     }
   ]
